@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+
     line-height: 1;
 }
 ol, ul {
@@ -55,6 +56,7 @@ i, em { font-style: italic }
 /*
     ... and give links a nice look.
 */
+
 
 @font-face {
   font-family: "Special Elite";
@@ -166,6 +168,7 @@ img {
 html{
 	background:url('../img/8.jpg') no-repeat ;
 	background-size: cover;
+
 }
 
 body{
