@@ -7,8 +7,14 @@ background:transparent;
 height:210px;
 width:49%;
 }
-#one:hover,#two:hover,#three:hover,#four:hover {
+.see
+{
+visibility:hidden;
+}
+#one:hover .see, #two:hover .see, #three:hover .see, #four:hover .see{
     background:white;
+visibility:visible;
+
 }
 #two
 {
