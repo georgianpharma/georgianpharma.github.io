@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    		<meta name="description" content="">
+    		<meta name="author" content="">
+    		<link rel="icon" href="../fonts/favicon.ico">
+		<title>PRODUCT:GEORGIANPHARMA</title>
+	        <link rel="stylesheet" href="../css/bootstrap.css" />
+    		<link href="../css/offcanvas.css" rel="stylesheet">
+		<link href="../css/my.css" rel="stylesheet">
+    		<!-- Just for debugging purposes. Don't actually copy this line! -->
+    		<!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
+	
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    		<!--[if lt IE 9]>
+      		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    		<![endif]-->
+	</head>
+	<body>
+        	<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+                	<div class="container">
+				<div>
+					<ul id="navv">
+                                		<li><h1><a style="margin-top:1px;">GEORGIAN PHARMACEUTICALS<p>Hope of Life</p><a></h1></li>
+
+                        		</ul>	
+				</div>
+                                <div class="navbar-header">
+                                	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        	<span class="sr-only">Menu</span>
+                                                	<span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                        </button>
+                                </div>
+                                <div class="collapse navbar-collapse">
+	                                        <ul id="nav">
+                                                        <li><a href="../index.html">Home</a></li>
+                                                        <li><a href="about.html">About</a></li>
+                                                        <li class="active"><a href="product.html">Product</a></li>
+                                                        <li><a href="vision.html">Vision</a></li>
+                                                        <li><a href="feedback.html">feedback</a></li>
+                                                        <li><a href="signin.html">Sign In ! </a></li>
+                                                        <div id="lavalamp"></div>
+                                                </ul>
+                                 </div><!-- /.nav-collapse -->
+                        </div><!-- /.container -->
+                </div><!-- /.navbar --><!--top line end/////////////////////////////////////////-->
+		<div id="hole">
+			<div class="go">
+				<p style="color:green; font-size:3vw; margin-top:2%; text-align:center;"><b>OUR PRODUCT</b></p>
+					<p class="product">COMMING SOON</p>
+<!--	<p style="color:orange; font-size:35px; margin-top:0%; margin-left:10%">1.lycovita</p>
+<p style="color:blue; font-size:30px; margin-top:-20px; margin-left:25%">lycopene,multivitamin,multimineral</p>
+<p style="color:orange; font-size:35px; margin-top:0%; margin-left:10%">2.codlee</p>
+<p style="color:blue; font-size:30px; margin-top:-20px; margin-left:25%">cod liver oil and vitamine -E</p>
+<p style="color:orange; font-size:35px; margin-top:0%; margin-left:10%">3.pentagen-DSR</p>
+<p style="color:blue; font-size:30px; margin-top:-20px; margin-left:25%">pentaprazole and domperidom</p>
+<p style="color:orange; font-size:35px; margin-top:0%; margin-left:10%">4.Para-AS</p>
+<p style="color:blue; font-size:30px; margin-top:-20px; margin-left:25%">paracetamol,aceclofenac,seretopeptide</p>
+<p style="color:orange; font-size:35px; margin-top:0%; margin-left:10%">5.husbol</p>
+<p style="color:blue; font-size:30px; margin-top:-20px; margin-left:25%">isapgul husk</p>
+-->
+			</div>
+		</div>
+		<div id="five">
+			&copy2014 All copy rights reserved @ GEORGIAN PHARMACEUTICALS
+		</div>
+		<!-- JavaScript includes -->
+		<script src="../js/jquery-1.7.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/offcanvas.js"></script>
+	</body>
+</html> 
