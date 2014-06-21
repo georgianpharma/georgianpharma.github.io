@@ -25,9 +25,9 @@ font-size:3vw;
 text-align:center;
 transform: rotate(55deg); /* W3C */
 -webkit-transform: rotate(55deg); /* Safari & Chrome */
--moz-transform: rotate(20deg); /* Firefox */
--ms-transform: rotate(20deg); /* Internet Explorer */
--o-transform: rotate(20deg); /* Opera */
+-moz-transform: rotate(55deg); /* Firefox */
+-ms-transform: rotate(55deg); /* Internet Explorer */
+-o-transform: rotate(55deg); /* Opera */
 
 }
 
@@ -44,9 +44,9 @@ font-size:3vw;
 text-align:center;
 transform: rotate(300deg); /* W3C */
 -webkit-transform: rotate(300deg); /* Safari & Chrome */
--moz-transform: rotate(20deg); /* Firefox */
--ms-transform: rotate(20deg); /* Internet Explorer */
--o-transform: rotate(20deg); /* Opera */
+-moz-transform: rotate(300deg); /* Firefox */
+-ms-transform: rotate(300deg); /* Internet Explorer */
+-o-transform: rotate(300deg); /* Opera */
 }
 
 .product
@@ -191,22 +191,22 @@ transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
 transition-delay: 0s;  
 
 -webkit-transition-property: width, height, font-size, font-weight, background-color;  
--webkit-transition-duration: 0.3s, 1s, 0.3s, 0.3s, 2s;
+-webkit-transition-duration: 1s, 2s, 0.3s, 0.3s, 3s;
 -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
 -webkit-transition-delay: 0s;  
 
 -moz-transition-property: width, height, font-size, font-weight, background-color;  
--moz-transition-duration: 0.3s;
+-moz-transition-duration: 1s, 2s, 0.3s, 0.3s, 3s;
 -moz-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
 -moz-transition-delay: 0s;  
 
 -ms-transition-property: width, height, font-size, font-weight, background-color;  
--ms-transition-duration: 0.3s;
+-ms-transition-duration: 1s, 2s, 0.3s, 0.3s, 3s;
 -ms-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
 -ms-transition-delay: 0s;  
 
 -o-transition-property: width, height, font-size, font-weight, background-color;  
--o-transition-duration: 0.3s;
+-o-transition-duration: 1s, 2s, 0.3s, 0.3s, 3s;
 -o-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
 -o-transition-delay: 0s;  
 
@@ -228,7 +228,9 @@ body
 	background-image:url('../fonts/5.jpg');
 /* Safari and Chrome */
 -webkit-background-size: cover;
-
+-moz-background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
 }
 
 #five
