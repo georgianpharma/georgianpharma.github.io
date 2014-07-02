@@ -150,16 +150,16 @@ margin-top:70px;
 		font-size:33px;
 		margin-left:-15px;
 		margin-top:-13px;
-		color:green;
+		color:#0066ff;
 		}
 	.namea {
 			font-size:20px;
 			margin-top:-10px;
 			margin-left:-10px;
-			color:green;
+			color:#0066ff;
 		}
 	.nameb{
-			color:red;
+			color:green;
 			font-size:15px;
 			font-weight:bold;
 			margin-top:-17px;
@@ -233,7 +233,7 @@ margin-top:70px;
 #hole
 	{
 		position:relative;
-		background-color:red;
+		background-color:transparent;
 		height:200px;
 		margin-top:4.5%;
 	}
@@ -279,16 +279,16 @@ margin-top:70px;
 		font-size:33px;
 		margin-left:-15px;
 		margin-top:-13px;
-		color:green;
+		color:#0066ff;
 		}
 	.namea {
 			font-size:20px;
 			margin-top:-10px;
 			margin-left:-10px;
-			color:green;
+			color:#0066ff;
 		}
 	.nameb{
-			color:red;
+			color:green;
 			font-size:15px;
 			font-weight:bold;
 			margin-top:-17px;
@@ -362,7 +362,7 @@ margin-top:70px;
 #hole
 	{
 		position:relative;
-		background-color:red;
+		background-color:transparent;
 		height:30.6vw;
 		margin-top:4.5%;
 	}
@@ -376,16 +376,16 @@ margin-top:70px;
 		font-size:33px;
 		margin-left:-15px;
 		margin-top:-13px;
-		color:green;
+		color:#0066ff;
 		}
 	.namea {
 			font-size:20px;
 			margin-top:-10px;
 			margin-left:-10px;
-			color:green;
+			color:#0066ff;
 		}
 	.nameb{
-			color:red;
+			color:green;
 			font-size:15px;
 			font-weight:bold;
 			margin-top:-17px;
@@ -426,18 +426,18 @@ margin-top:70px;
 		width:100%;
  		text-align:center;
 		font-size:25px;
-		color:blue;
+		color:black;
 		}
 	.aboutp{
 		position:absolute;
 		background-color:transparent;
 		margin-top:75px;
  		text-align:center;
-		font-size:25px;
-		color:blue;
+		font-size:23px;
+		color:black;
 		}
 	.main{
-		color:red;
+		color:blue;
 		font-size:30px;
 		font-weight:bold;
 		}
@@ -458,7 +458,7 @@ margin-top:70px;
 	#hole
 	{
 		position:relative;
-		background-color:red;
+		background-color:transparent;
 		height:30.6vw;
 		margin-top:4.5%;
 	}

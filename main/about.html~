@@ -52,17 +52,19 @@
                     <li><a href="bhzaidi.html">B.H.Zaidi</a></li>
                     <li><a href="anaved.html">A.Naved</a></li>
 		    <li><a href="bverma.html">B.Verma</a></li>
-		    <li><a href="ssantra">S.Santra</a></li>
+		    <li><a href="ssantra.html">S.Santra</a></li>
                   </ul>
                 </li>
 		<li class="dropdown">
                   <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="1.html">1.Lycovita</a></li>
-		    <li><a href="2.html">2.Codlee</a></li>
+		    <li><a href="2.html">2.Coddlee</a></li>
                     <li><a href="3.html">3.Pentagen-DSR</a></li>
                     <li><a href="4.html">4.Para-AS</a></li>
-		    <li><a href="5.html">5.Husbol</a></li>
+		    <li><a href="5.html">5.Isabowl</a></li>
+		    <li><a href="6.html">6.G-calci</a></li>
+
                   </ul>
                 </li>
               </ul>
@@ -76,7 +78,7 @@
     <!-- Carousel
     ================================================== -->
     <div class="about">
-<div class="aboutp"><p class="main">ABOUT US</p><p>Georgian is the very famous word for health care sector , doctors of k.g.m.c  known as georgian becuase of it's name king george medical college.They provoid their services   to the patient. they are known for the patient as god, as hope of life to cure the desease. georgian pharmaceuticals founded by <a href="bhzaidi.html">syed baharul hasnain zaidi</a> along with <a href="anaved.html">Mr. ahmad naved</a>, <a href="ssantra.html">Mr. sowmen santra</a> and <a href="main/bverma.html">Miss Babita verma</a> in 2014 for hope of life to cure desease by the dedication of all the four person georgian pharmaceuticals established.
+<div class="aboutp"><p class="main">ABOUT US</p><p>Georgian is the very famous word for health care sector , doctors of k.g.m.c  known as georgian becuase of it's name king george medical college.They provoid their services   to the patient. they are known for the patient as god, as hope of life to cure the desease. georgian pharmaceuticals founded by <a href="bhzaidi.html">syed baharul hasnain zaidi</a> along with <a href="anaved.html">Mr. ahmad naved</a>, <a href="ssantra.html">Mr. sowmen santra</a> and <a href="bverma.html">Miss Babita verma</a> in 2014 for hope of life to cure desease by the dedication of all the four person georgian pharmaceuticals established.
 </p></div>
     </div><!-- /.carousel -->
 <div class="container marketing">

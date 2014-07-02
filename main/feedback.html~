@@ -83,7 +83,7 @@
 			<div class="fede">
 				<p style="font-size:1.5vw">Your FEEDBACK is important for us.
 				<br>So please give your feedback and help us.</p>
-				<form action="index.php" method="POST">
+				<form action="../index.html" method="POST">
 				<b>Your name</b>: <br>
 				<input type="text" name="realname"><br>
 				<br><b>
