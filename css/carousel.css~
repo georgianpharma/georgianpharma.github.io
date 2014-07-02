@@ -1,0 +1,465 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+.feede
+{
+background-color:transparent;
+position:fixed;
+height:4vw;
+margin-top:5.4vw;
+margin-left:86vw;
+width:17vw;
+color:red;
+font-size:3vw;
+text-align:center;
+transform: rotate(55deg); /* W3C */
+-webkit-transform: rotate(55deg); /* Safari & Chrome */
+-moz-transform: rotate(20deg); /* Firefox */
+-ms-transform: rotate(20deg); /* Internet Explorer */
+-o-transform: rotate(20deg); /* Opera */
+
+}
+.feed
+{
+background-color:transparent;
+position:fixed;
+margin-left:-3.5vw;
+height:4vw;
+margin-top:6vw;
+width:17vw;
+color:red;
+font-size:3vw;
+text-align:center;
+transform: rotate(300deg); /* W3C */
+-webkit-transform: rotate(300deg); /* Safari & Chrome */
+-moz-transform: rotate(20deg); /* Firefox */
+-ms-transform: rotate(20deg); /* Internet Explorer */
+-o-transform: rotate(20deg); /* Opera */
+}
+.fede
+{
+color:blue;
+font-size:1.5vw;
+margin-left:35vw;
+margin-top:70px;
+}
+
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
+
+	.name{
+		font-size:33px;
+		margin-left:-15px;
+		margin-top:-13px;
+		color:green;
+		}
+	.namea {
+			font-size:20px;
+			margin-top:-10px;
+			margin-left:-10px;
+			color:green;
+		}
+	.nameb{
+			color:red;
+			font-size:15px;
+			font-weight:bold;
+			margin-top:-17px;
+			margin-left:101px;
+		}
+	.vision{
+		background-color:transparent;
+		width:100%;
+		height:290px;
+		}
+	.visionp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:60px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.bh{
+		background-color:transparent;
+		width:100%;
+		height:640px;
+		}
+	.bhp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:60px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.bh img{
+		width:150px;
+		height:200px;
+		}
+	.about{
+		background-color:transparent;
+		width:100%;
+		height:900px;
+		}
+	.aboutp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.pro{
+		background-color:transparent;
+		width:100%;
+		height:310px;
+		}
+	.prop{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:35px;
+		color:blue;
+		}
+	.main{
+		color:red;
+		font-size:30px;
+		font-weight:bold;
+		}
+
+#hole
+	{
+		position:relative;
+		background-color:red;
+		height:200px;
+		margin-top:4.5%;
+	}
+}
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+		.name{
+		font-size:33px;
+		margin-left:-15px;
+		margin-top:-13px;
+		color:green;
+		}
+	.namea {
+			font-size:20px;
+			margin-top:-10px;
+			margin-left:-10px;
+			color:green;
+		}
+	.nameb{
+			color:red;
+			font-size:15px;
+			font-weight:bold;
+			margin-top:-17px;
+			margin-left:101px;
+		}
+	.vision{
+		background-color:transparent;
+		width:100%;
+		height:290px;
+		}
+	.visionp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.bh{
+		background-color:transparent;
+		width:100%;
+		height:330px;
+		}
+	.bhp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+
+	.bh img{
+		width:150px;
+		height:200px;
+		}
+	.about{
+		background-color:transparent;
+		width:100%;
+		height:400px;
+		}
+	.aboutp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.pro{
+		background-color:transparent;
+		width:100%;
+		height:310px;
+		}
+	.prop{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:35px;
+		color:blue;
+		}
+	.main{
+		color:red;
+		font-size:30px;
+		font-weight:bold;
+		}
+#hole
+	{
+		position:relative;
+		background-color:red;
+		height:30.6vw;
+		margin-top:4.5%;
+	}
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+	.name{
+		font-size:33px;
+		margin-left:-15px;
+		margin-top:-13px;
+		color:green;
+		}
+	.namea {
+			font-size:20px;
+			margin-top:-10px;
+			margin-left:-10px;
+			color:green;
+		}
+	.nameb{
+			color:red;
+			font-size:15px;
+			font-weight:bold;
+			margin-top:-17px;
+			margin-left:101px;
+		}
+	.about{
+		background-color:transparent;
+		width:100%;
+		height:365px;
+		}
+	.vision{
+		background-color:transparent;
+		width:100%;
+		height:290px;
+		}
+	.bh{
+		background-color:transparent;
+		width:100%;
+		height:290px;
+		}
+	.bhp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.bh img{
+		width:150px;
+		height:200px;
+		}
+	.visionp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.aboutp{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+ 		text-align:center;
+		font-size:25px;
+		color:blue;
+		}
+	.main{
+		color:red;
+		font-size:30px;
+		font-weight:bold;
+		}
+	.pro{
+		background-color:transparent;
+		width:100%;
+		height:310px;
+		}
+	.prop{
+		position:absolute;
+		background-color:transparent;
+		margin-top:75px;
+		width:100%;
+ 		text-align:center;
+		font-size:35px;
+		color:blue;
+		}	
+	#hole
+	{
+		position:relative;
+		background-color:red;
+		height:30.6vw;
+		margin-top:4.5%;
+	}
+}
